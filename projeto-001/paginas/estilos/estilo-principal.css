@@ -17,11 +17,13 @@ header {
      box-shadow: 3px -1px 17px 0px rgba(0, 0, 0, 0.563);
      border-radius: 0px 5px;
     padding: 50px;
-    text-align: center;
+   
 }
 header > h1 {
     font-size: 2em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.438);
+     text-align: center;
+    
 }
 nav{
      background-color: black;

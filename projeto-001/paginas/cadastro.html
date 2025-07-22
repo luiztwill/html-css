@@ -1,11 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    
+    <main>
+        <section id="cadastro">
+                <h1>Cadastro</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar a sua conta e poder fazer as configurações no seu ambiente.</p>
+                       <form action="cadastro.php" method="get" autocomplete="off">
+                          <div class="campo">
+                   <label for="iemail"></label>
+                    <input type="email" name="email" id="iemail" required placeholder="  Seu email">
+                       
+                       <br>
+                        <label for="isenha"></label>
+                             <input type="password" name="senha" id="isenha" required minlength="8" placeholder="  Sua senha">
+                       </div>
+
+                        <input type="submit" value="Cadastrar">
+                        <br>
+                        <input type="reset" value="Limpar">
+                       
+            
+                   </form>
+        </section>
+    </main>
 </body>
 </html>
